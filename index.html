@@ -533,43 +533,6 @@
   }
   .try-live:hover{background:var(--maroon-deep);}
   .try-live svg{width:16px;height:16px;}
-  .try-live.on-dark{
-    background:var(--gold);color:var(--maroon-deep);
-    font-size:16px;padding:16px 28px;margin-top:8px;
-  }
-  .try-live.on-dark:hover{background:#FFE066;}
-  .try-live.on-dark svg{width:18px;height:18px;}
-
-  /* ---- form hero ---- */
-  .form-hero{
-    background:var(--maroon);
-    color:#FFF7E6;
-    border-radius:28px;
-    padding:48px 48px 44px;
-    margin-bottom:72px;
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    gap:14px;
-    box-shadow:0 24px 50px -24px rgba(36,17,25,0.45);
-  }
-  .form-hero-eyebrow{
-    font-family:ui-rounded,"SF Pro Rounded","Segoe UI Rounded",-apple-system,sans-serif;
-    text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:0.11em;
-    color:var(--gold);margin:0;
-  }
-  .form-hero-title{
-    font-family:ui-rounded,"SF Pro Rounded","Segoe UI Rounded",-apple-system,sans-serif;
-    font-weight:800;font-size:34px;line-height:1.15;letter-spacing:-0.01em;
-    margin:0;max-width:680px;text-wrap:balance;color:#FFF7E6;
-  }
-  .form-hero-sub{
-    font-size:16px;line-height:1.6;color:var(--pink);margin:0;max-width:600px;
-  }
-  @media (max-width:640px){
-    .form-hero{padding:32px 26px 30px;border-radius:22px;}
-    .form-hero-title{font-size:26px;}
-  }
 
   /* ---- lead form modal ---- */
   #leadFormModal{
@@ -674,16 +637,6 @@
 </div>
 
 <main>
-  <div class="form-hero">
-    <p class="form-hero-eyebrow">The lead form, live</p>
-    <h1 class="form-hero-title">This is the exact form every ad opens. Go ahead and try it.</h1>
-    <p class="form-hero-sub">Type a real name if you want. Pick an answer. Watch the petition line and the thank you screen update as you go. Every Sign Up button on this page opens this same form.</p>
-    <button class="try-live on-dark" onclick="openLeadForm()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 3l14 9-14 9V3z"/></svg>
-      Try it live
-    </button>
-  </div>
-
   <!-- AD A -->
   <section class="block">
     <div class="block-head">
